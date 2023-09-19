@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios'; // Zaimportuj Axios
 
 function App() {
+  const [url, setUrl] = useState('http://egzaminkf.wachcio.pl/');
   const [questions, setQuestions] = useState([]);
   const [activeSubjectQuestions, setActiveSubjectQuestions] = useState([]);
   const [activeSubjectIndex, setActiveSubjectIndex] = useState(0);
@@ -19,7 +20,7 @@ function App() {
   useEffect(() => {
     // Użyj Axios do wczytania danych z pliku JSON
     axios
-      .get('http://egzaminkf.wachcio.pl/questions.json')
+      .get(`${url}questions.json`)
       .then((response) => {
         setQuestions(response.data);
         setActiveSubjectQuestions(response.data[subjects[activeSubjectIndex]]);
@@ -45,16 +46,22 @@ function App() {
       <h2 className="text-2xl font-bold mb-4">
         {subjects[activeSubjectIndex]}
       </h2>
-      <ol className="list-decimal list-inside">
+      <ul>
         {activeSubjectQuestions.map((question, index) => (
           <li
             key={index}
             className="mb-4 bg-white p-4 shadow rounded text-lg font-semibold"
           >
             {question.question}
-            {/* <p className="text-lg font-semibold">{question.question}</p> */}
+            {question.img ? (
+              <img
+                src={url + '/img/' + (index + 1) + '.png'}
+                alt="Opis obrazka"
+              />
+            ) : (
+              ''
+            )}
             <ol
-              type="a"
               className="li pl-4 mt-2 text-base font-normal"
               style={{ listStyleType: 'lower-alpha' }}
             >
@@ -70,7 +77,7 @@ function App() {
             </ol>
           </li>
         ))}
-      </ol>
+      </ul>
     </div>
   );
 }
