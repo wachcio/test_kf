@@ -1408,8 +1408,8 @@
       "question": "Obwód rezonansowy równoległy LC w punkcie rezonansu przedstawia impedancję:",
       "options": [
         "rzeczywistą omową",
-        "reaktancję indukcyjną",
-        "reaktancję pojemnościową"
+        "reaktancję pojemnościową",
+        "reaktancję indukcyjną"
       ],
       "correct_answer_index": 0
     },
