@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     // Użyj Axios do wczytania danych z pliku JSON
     axios
-      .get('http://egazminkf.wachcio.pl/questions.json')
+      .get('http://egzaminkf.wachcio.pl/questions.json')
       .then((response) => {
         setQuestions(response.data);
         setActiveSubjectQuestions(response.data[subjects[activeSubjectIndex]]);

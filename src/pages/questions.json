@@ -1414,157 +1414,157 @@
       "correct_answer_index": 0
     },
     {
-      "question": "Czy dioda prostownicza przewodzi prąd w obie strony?",
+      "question": "Mamy obwód rezonansowy o częstotliwości 3,5 MHz. W jego skład wchodzi pojemność C = 400 pF. Jaką pojemność należy dołączyć zamiast C, by przestroić obwód na 7 MHz?",
       "options": [
-        "tak",
+        "200 pF",
+        "100 pF",
+        "57 pF"
+      ],
+      "correct_answer_index": 1
+    },
+    {
+      "question": "Obwód rezonansowy na częstotliwość 14 MHz ma dobroć Q=100. Jaka jest szerokość pasma tego obwodu rezonansowego?",
+      "options": [
+        "280 kHz",
+        "14 kHz",
+        "140 kHz"
+      ],
+      "correct_answer_index": 0
+    },
+    {
+      "question": "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
+      "options": [
+        "prostownik dwupołówkowy",
+        "prostownik jednopołówkowy",
+        "prostownik mostkowy dwupołówkowy"
+      ],
+      "correct_answer_index": 2
+    },
+    {
+      "question": "Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie Usk transformatora zasilającego diody?",
+      "options": [
+        "25 V",
+        "17,7 V",
+        "20 V"
+      ],
+      "correct_answer_index": 1
+    },
+    {
+      "question": "Wzmacniacz posiada wzmocnienie napięciowe 10 razy. Wyraź to wzmocnienie w decybelach (dB)",
+      "options": [
+        "10 dB",
+        "20 dB",
+        "40 dB"
+      ],
+      "correct_answer_index": 1
+    },
+    {
+      "question": "Wzmacniacz wysokiej częstotliwości obciążony obwodem rezonansowym jest:",
+      "options": [
+        "wzmacniaczem selektywnym",
+        "wzmacniaczem szerokopasmowym",
+        "wzmacniaczem akustycznym"
+      ],
+      "correct_answer_index": 0
+    },
+    {
+      "question": "W tranzystorowym wzmacniaczu mocy który element jest niezbędny aby nie generować zakłóceń harmonicznych?",
+      "options": [
+        "filtr dolnoprzepustowy",
+        "przełącznik nadawanie-odbiór",
+        "układ dopasowania bazy tranzystora"
+      ],
+      "correct_answer_index": 0
+    },
+    {
+      "question": "Na rysunku przedstawiono schemat detektora diodowego. Jaką rolę spełnia w nim kondensator C1?",
+      "options": [
+        "jest kondensatorem filtrującym prądy w.cz.",
+        "poprawia odtwarzanie wysokich tonów",
+        "chroni słuchawki przed uszkodzeniem"
+      ],
+      "correct_answer_index": 0
+    },
+    {
+      "question": "Dlaczego do detekcji sygnałów telegrafii CW używamy detektora mnożącego i pomocniczego generatora BFO?",
+      "options": [
+        "bo sygnał CW jest przerywany",
+        "musimy wytworzyć słyszalne dudnienia z niemodulowanym sygnałem CW",
+        "bo sygnał CW jest słaby"
+      ],
+      "correct_answer_index": 1
+    },
+    {
+      "question": "Aby czytelnie odebrać sygnał SSB, to przy odbiorze dolnej wstęgi (LSB) sygnał odtwarzający falę nośną powinien być:",
+      "options": [
+        "poniżej wstęgi LSB",
+        "powyżej wstęgi LSB",
+        "w środku LSB"
+      ],
+      "correct_answer_index": 0
+    },
+    {
+      "question": "Czy dyskryminator sygnału FM powinien reagować na modulację amplitudy sygnału FM?",
+      "options": [
         "nie",
-        "tylko w układach prądu przemiennego"
-      ],
-      "correct_answer_index": 1
-    },
-    {
-      "question": "Zener to rodzaj diody, która jest używana jako:",
-      "options": [
-        "dioda prostownicza",
-        "dioda stabilizacyjna",
-        "dioda sygnałowa"
-      ],
-      "correct_answer_index": 1
-    },
-    {
-      "question": "Jaka jest wartość rezystancji równoległego połączenia rezystora 10 kΩ i 20 kΩ?",
-      "options": [
-        "30 kΩ",
-        "6,67 kΩ",
-        "15 kΩ"
-      ],
-      "correct_answer_index": 1
-    },
-    {
-      "question": "Czy w układzie rezonansowym LC, zmniejszenie pojemności kondensatora spowoduje przesunięcie częstotliwości rezonansowej w górę?",
-      "options": [
         "tak",
-        "nie",
-        "zależy od indukcyjności cewki"
+        "nie ma to znaczenia"
       ],
       "correct_answer_index": 0
     },
     {
-      "question": "Co to jest tranzystor unipolarny?",
+      "question": "Warunkiem wzbudzenia się generatora z obwodem rezonansowym jest:",
       "options": [
-        "tranzystor o jednym typie materiału",
-        "tranzystor sterowany napięciem",
-        "tranzystor o jednym rodzaju nośników prądu"
-      ],
-      "correct_answer_index": 2
-    },
-    {
-      "question": "Co to jest dioda Schottky'ego?",
-      "options": [
-        "dioda prostownicza",
-        "dioda zaporowa",
-        "dioda o dużej prądowo mocy"
-      ],
-      "correct_answer_index": 0
-    },
-    {
-      "question": "Czym jest spolaryzowana dioda prostownicza?",
-      "options": [
-        "zaporowo",
-        "włączona w kierunku przewodzenia",
-        "spolaryzowana obie strony"
+        "zastosowanie obwodu rezonansu szeregowego",
+        "spełnienie warunku amplitudy i fazy",
+        "zastosowanie ujemnego sprzężenia zwrotnego"
       ],
       "correct_answer_index": 1
     },
     {
-      "question": "Jaki jest trzeci element półprzewodnikowy?",
+      "question": "Generator TCXO wysoką stabilność zawdzięcza:",
       "options": [
-        "dioda",
-        "tranzystor",
-        "tyrystor"
+        "zastosowaniu specjalnych układów korygujących częstotliwość",
+        "docięciu kryształu kwarcu z dokładnością do femtometrów",
+        "stabilizacji temperatury oscylatora"
       ],
       "correct_answer_index": 2
     },
     {
-      "question": "Jakie jest zastosowanie tyrystora?",
+      "question": "Bezpośrednia synteza cyfrowa (DDS) generuje przebieg przez:",
       "options": [
-        "jako dioda prostownicza",
-        "jako wzmacniacz",
-        "jako element sterowania mocy"
-      ],
-      "correct_answer_index": 2
-    },
-    {
-      "question": "Czym jest fotoogniwo?",
-      "options": [
-        "przyrządem optycznym do badania promieniowania słonecznego",
-        "źródłem promieniowania świetlnego",
-        "źródłem prądu w tranzystorach"
+        "użycie przetwornika cyfrowo-analogowego",
+        "cyfrowe przestrajanie obwodu rezonansowego",
+        "cyfrowe sterowanie układem NE555"
       ],
       "correct_answer_index": 0
     },
     {
-      "question": "Co to jest laser?",
+      "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 2 to:",
       "options": [
-        "urządzenie do wytwarzania promieniowania elektromagnetycznego o jednej długości fali",
-        "źródło prądu stałego",
-        "rodzaj transformatora"
-      ],
-      "correct_answer_index": 0
-    },
-    {
-      "question": "Jakie są podstawowe zasady działania diody elektroluminescencyjnej LED?",
-      "options": [
-        "opór zależy od napięcia",
-        "opór jest stały",
-        "emisja światła w wyniku złącza p-n"
-      ],
-      "correct_answer_index": 2
-    },
-    {
-      "question": "Który tranzystor jest tranzystorem unipolarnym?",
-      "options": [
-        "NPN",
-        "PNP",
-        "MOSFET"
-      ],
-      "correct_answer_index": 2
-    },
-    {
-      "question": "Co to jest falownik (inwerter)?",
-      "options": [
-        "urządzenie zmieniające prąd stały na prąd przemienny",
-        "przekształtnik prądowy",
-        "rodzaj diody"
-      ],
-      "correct_answer_index": 0
-    },
-    {
-      "question": "Jakie zastosowanie ma tyrystor?",
-      "options": [
-        "wzmacniacz",
-        "element sterowania mocy",
-        "dioda prostownicza"
+        "komparator fazy",
+        "dzielnik częstotliwości",
+        "generator wzorca"
       ],
       "correct_answer_index": 1
     },
     {
-      "question": "Która z poniższych diod jest diodą prostowniczą?",
+      "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 3 to:",
       "options": [
-        "dioda Zenera",
-        "dioda Schottky'ego",
-        "dioda germanowa"
+        "dzielnik nastawny",
+        "komparator fazy",
+        "wzmacniacz błędu"
       ],
-      "correct_answer_index": 2
+      "correct_answer_index": 0
     },
     {
-      "question": "Czym jest falownik PWM?",
+      "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 5 to:",
       "options": [
-        "urządzeniem zmieniającym prąd stały na prąd przemienny",
-        "techniką modulacji szerokości impulsów",
-        "źródłem promieniowania elektromagnetycznego o jednej długości fali"
+        "dzielnik częstotliwośći wzorca",
+        "generator stabilizowany",
+        "komparator fazy"
       ],
-      "correct_answer_index": 1
+      "correct_answer_index": 2
     },
     {
       "question": "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 6 to:",
